@@ -44,8 +44,10 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Greedy Algorithms\HuffmanCoding.cs" />
     <Compile Include="Greedy Algorithms\KruskalsMinimumSpanningTree.cs" />
     <Compile Include="Greedy Algorithms\ActivitySelection.cs" />
+    <Compile Include="Greedy Algorithms\MinCoins.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
