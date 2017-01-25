@@ -1,0 +1,8 @@
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/.NETFramework,Version=v4.5.2.AssemblyAttribute.cs
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.pdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/nunit.framework.dll
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.dll.mdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.pdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.dll
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll.mdb
