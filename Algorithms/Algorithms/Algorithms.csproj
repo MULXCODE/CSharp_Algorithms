@@ -50,6 +50,7 @@
     <Compile Include="Greedy Algorithms\KruskalsMinimumSpanningTree.cs" />
     <Compile Include="Greedy Algorithms\ActivitySelection.cs" />
     <Compile Include="Greedy Algorithms\MinCoins.cs" />
+    <Compile Include="Matrix\KthElementInSpiralForm.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Graph Algorithms\BFS.cs" />
     <Compile Include="Graph Algorithms\GraphEntities.cs" />

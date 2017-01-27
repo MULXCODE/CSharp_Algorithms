@@ -5,3 +5,10 @@ c:\Git\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.xml
 c:\Git\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
 c:\Git\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.dll
 c:\Git\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\Algorithms.dll
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.dll
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.xml
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.dll
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
