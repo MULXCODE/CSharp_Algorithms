@@ -11,28 +11,16 @@ namespace Algorithms
 		[Test]
 		public void BFS_Test()
 		{
-			//Graph2 g = new Graph2(4);
+			var graph = GraphSeeder.GetTestStructure();
 
-			//g.AddEdge(0, 1);
-			//g.AddEdge(0, 2);
-			//g.AddEdge(1, 2);
-			//g.AddEdge(2, 0);
-			//g.AddEdge(2, 3);
-			//g.AddEdge(3, 3);
-
-			//Debug.WriteLine("Following is Breadth First Traversal " +
-			//				   "(starting from vertex 2)");
-
-			//g.BreadthFirstSearch(2);
-
-			BFS bfs = new BFS();
+			BFS bfs = new BFS(graph);
 			bfs.Search();
 		}
 	}
 
-	public class BFS
+	public class GraphSeeder
 	{
-		public Graph<string> GetTestStructure()
+		public static Graph<string> GetTestStructure()
 		{
 			var graph = new Graph<string>();
 
@@ -52,19 +40,20 @@ namespace Algorithms
 			graph.AddDirectedEdge((GraphNode<string>)graph.Nodes.FindByValue("About.htm"), (GraphNode<string>)graph.Nodes.FindByValue("People.aspx"), 0);
 			graph.AddDirectedEdge((GraphNode<string>)graph.Nodes.FindByValue("About.htm"), (GraphNode<string>)graph.Nodes.FindByValue("Contact.aspx"), 0);
 
-			//web.AddDirectedEdge((GraphNode<string>)web.Nodes.FindByValue("Index.htm"), web.Nodes.FindByValue("About.htm" }, 0);
-			//web.AddDirectedEdge((GraphNode<string>)web.Nodes.FindByValue("Index.htm" }, web.Nodes.FindByValue("Contact.aspx" }, 0);
-			//web.AddDirectedEdge((GraphNode<string>)web.Nodes.FindByValue("Index.htm" }, web.Nodes.FindByValue("Products.aspx" }, 0);
+			graph.AddDirectedEdge((GraphNode<string>)graph.Nodes.FindByValue("Index.htm"), (GraphNode<string>)graph.Nodes.FindByValue("About.htm"), 0);
+			graph.AddDirectedEdge((GraphNode<string>)graph.Nodes.FindByValue("Index.htm"), (GraphNode<string>)graph.Nodes.FindByValue("Contact.aspx"), 0);
+			graph.AddDirectedEdge((GraphNode<string>)graph.Nodes.FindByValue("Index.htm"), (GraphNode<string>)graph.Nodes.FindByValue("Products.aspx"), 0);
 			//web.AddDirectedEdge((GraphNode<string>)web.Nodes.FindByValue("Products.aspx" }, web.Nodes.FindByValue("Index.htm" }, 0);
 			//web.AddDirectedEdge((GraphNode<string>)web.Nodes.FindByValue("Products.aspx" }, web.Nodes.FindByValue("People.aspx" }, 0);
 
 			return graph;
 		}
+	}
 
-		public void Search()
+	public class BFS
+	{
+		public void Search(Graph<string> graph)
 		{
-			var graph = GetTestStructure();
-
 			// Mark all vertices as not visited (by default, set to false)
 			var visited = new HashSet<Node<string>>();
 
