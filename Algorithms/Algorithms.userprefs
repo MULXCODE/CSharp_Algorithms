@@ -1,31 +1,25 @@
-﻿<Properties StartupConfiguration="{AC783490-A68D-4280-8BD4-F12AEC5A46B0}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Graph Algorithms/DFS.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Graph Algorithms/BFS.cs">
     <Files>
       <File FileName="Algorithms/Graph Algorithms/AdjacencyListNode.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Graph Algorithms/BFS.cs" Line="57" Column="29" />
       <File FileName="Algorithms/Greedy Algorithms/KruskalsMinimumSpanningTree.cs" Line="82" Column="6" />
       <File FileName="Algorithms/Graph Algorithms/GraphEntities.cs" Line="143" Column="1" />
-      <File FileName="Algorithms/Graph Algorithms/DFS.cs" Line="9" Column="18" />
+      <File FileName="Algorithms/Graph Algorithms/DFS.cs" Line="31" Column="1" />
+      <File FileName="Algorithms/Graph Algorithms/BFS.cs" Line="22" Column="3" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Algorithms" expanded="True">
-            <Node name="Algorithms" expanded="True">
-              <Node name="Algorithms" expanded="True">
-                <Node name="BFSTests" selected="True" />
-              </Node>
-            </Node>
-          </Node>
+          <Node name="Algorithms" expanded="True" />
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
-      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/BFS.cs" relfile="Algorithms/Graph Algorithms/BFS.cs" line="69" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/BFS.cs" relfile="Algorithms/Graph Algorithms/BFS.cs" line="58" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/DFS.cs" relfile="Algorithms/Graph Algorithms/DFS.cs" line="44" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
