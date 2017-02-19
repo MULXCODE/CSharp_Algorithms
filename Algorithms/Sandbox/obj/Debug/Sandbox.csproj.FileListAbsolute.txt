@@ -1,0 +1,6 @@
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplication1.exe.config
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplication1.exe
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplication1.pdb
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\ConsoleApplication1.exe
+C:\Users\GW\Desktop\GIT\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\ConsoleApplication1.pdb

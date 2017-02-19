@@ -13,8 +13,8 @@ namespace Algorithms
 		{
 			var graph = GraphSeeder.GetTestStructure();
 
-			BFS bfs = new BFS(graph);
-			bfs.Search();
+			BFS bfs = new BFS();
+			bfs.Search(graph);
 		}
 	}
 
