@@ -55,6 +55,7 @@
     <Compile Include="Graph Algorithms\BFS.cs" />
     <Compile Include="Graph Algorithms\GraphEntities.cs" />
     <Compile Include="Graph Algorithms\DFS.cs" />
+    <Compile Include="Sorts\IterativeQuickSort.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
