@@ -4,3 +4,5 @@
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll.mdb
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/nunit.framework.dll
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.pdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.pdb

@@ -58,6 +58,11 @@
     <Compile Include="Trees\BinaryTree.cs" />
     <Compile Include="Trees\Trie.cs" />
     <Compile Include="Sorts\IterativeQuickSort.cs" />
+    <Compile Include="Sorts\Sort012.cs" />
+    <Compile Include="BitsAndBytes\AddBinaryStrings.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Sorts\OptimizedQuickSort.cs" />
+    <Compile Include="Trees\BinaryTree_CompressPath.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -67,6 +72,8 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Trees\" />
+    <Folder Include="BitsAndBytes\" />
+    <Folder Include="Searching\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

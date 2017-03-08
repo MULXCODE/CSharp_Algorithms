@@ -1,5 +1,5 @@
-﻿<Properties StartupConfiguration="{AC783490-A68D-4280-8BD4-F12AEC5A46B0}|Unit Tests">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Trees/Trie.cs">
+﻿<Properties StartupConfiguration="{6652CE14-3F22-400D-B322-A09551F0AB8D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Trees/BinaryTree_CompressPath.cs">
     <Files>
       <File FileName="Algorithms/Graph Algorithms/AdjacencyListNode.cs" Line="1" Column="1" />
       <File FileName="Algorithms/Greedy Algorithms/KruskalsMinimumSpanningTree.cs" Line="14" Column="8" />
@@ -7,20 +7,49 @@
       <File FileName="Algorithms/Graph Algorithms/DFS.cs" Line="31" Column="1" />
       <File FileName="Algorithms/Graph Algorithms/BFS.cs" Line="25" Column="25" />
       <File FileName="Algorithms/Matrix/KthElementInSpiralForm.cs" Line="34" Column="14" />
-      <File FileName="Algorithms/Trees/BinaryTree.cs" Line="79" Column="30" />
-      <File FileName="Algorithms/Trees/Trie.cs" Line="84" Column="33" />
+      <File FileName="Algorithms/Trees/BinaryTree.cs" Line="74" Column="4" />
+      <File FileName="Algorithms/Trees/Trie.cs" Line="164" Column="1" />
+      <File FileName="Algorithms/Sorts/Sort012.cs" Line="4" Column="27" />
+      <File FileName="Algorithms/BitsAndBytes/AddBinaryStrings.cs" Line="56" Column="4" />
+      <File FileName="Algorithms/Searching/BinarySearch.cs" Line="27" Column="4" />
+      <File FileName="Algorithms/Sorts/IterativeQuicksort.cs" Line="1" Column="1" />
+      <File FileName="Algorithms/Sorts/OptimizedQuickSort.cs" Line="74" Column="15" />
+      <File FileName="Algorithms/Trees/BinaryTree_CompressPath.cs" Line="10" Column="3" />
     </Files>
+    <Pads>
+      <Pad Id="MonoDevelop.UnitTesting.TestPad">
+        <State name="__root__">
+          <Node name="Algorithms" expanded="True">
+            <Node name="Algorithms" expanded="True">
+              <Node name="Algorithms" expanded="True">
+                <Node name="AddBinaryStrings_Tests" expanded="True" />
+                <Node name="BFSTests" expanded="True" />
+                <Node name="BinarySearch_Tests" expanded="True">
+                  <Node name="BinarySearch_FindRangeIndex_Test" selected="True" />
+                </Node>
+                <Node name="DFSTests" expanded="True" />
+                <Node name="Greedy_Algorithms" expanded="True" />
+                <Node name="HuffmanCodingTests" expanded="True" />
+                <Node name="KruskalsMinimumSpanningTree" expanded="True" />
+                <Node name="Sorts" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/BFS.cs" relfile="Algorithms/Graph Algorithms/BFS.cs" line="58" column="1" />
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/DFS.cs" relfile="Algorithms/Graph Algorithms/DFS.cs" line="44" column="1" />
-      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/Trie.cs" relfile="Algorithms/Trees/Trie.cs" line="134" column="1" />
-      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/Trie.cs" relfile="Algorithms/Trees/Trie.cs" line="143" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/Trie.cs" relfile="Algorithms/Trees/Trie.cs" line="137" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/Trie.cs" relfile="Algorithms/Trees/Trie.cs" line="97" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Sorts/OptimizedQuickSort.cs" relfile="Algorithms/Sorts/OptimizedQuickSort.cs" line="74" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Sandbox PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>
