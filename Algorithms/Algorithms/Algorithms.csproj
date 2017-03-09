@@ -63,6 +63,7 @@
     <Compile Include="Searching\BinarySearch.cs" />
     <Compile Include="Sorts\OptimizedQuickSort.cs" />
     <Compile Include="Trees\BinaryTree_CompressPath.cs" />
+    <Compile Include="Heaps\MinHeap.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -74,6 +75,7 @@
     <Folder Include="Trees\" />
     <Folder Include="BitsAndBytes\" />
     <Folder Include="Searching\" />
+    <Folder Include="Heaps\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
