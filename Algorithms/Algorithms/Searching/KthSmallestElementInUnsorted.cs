@@ -126,6 +126,7 @@ namespace Algorithms
 	[TestFixture]
 	public class KthSmallestElementInUnsorted_Tests
 	{
+		// Kth Smallest using a MinHeap
 		[TestCase(new int[] { 7, 10, 4, 3, 20, 15 }, 3, 7)]
 		[TestCase(new int[] { 7, 10, 4, 3, 20, 15 }, 4, 10)]
 		public void KthSmallestElementInUnsorted_Test(int[] arr, int k, int expectedResult)
@@ -136,8 +137,6 @@ namespace Algorithms
 
 			Assert.That(res, Is.EqualTo(expectedResult));
 		}
-
-
 
 		// Quickselect
 		[Test]
