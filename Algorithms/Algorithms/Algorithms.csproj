@@ -64,6 +64,9 @@
     <Compile Include="Sorts\OptimizedQuickSort.cs" />
     <Compile Include="Trees\BinaryTree_CompressPath.cs" />
     <Compile Include="Heaps\MinHeap.cs" />
+    <Compile Include="Matrix\GoldmineMatrixPath.cs" />
+    <Compile Include="Matrix\MatrixUtilities.cs" />
+    <Compile Include="Searching\KthSmallestElementInUnsorted.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
