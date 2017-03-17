@@ -67,6 +67,7 @@
     <Compile Include="Matrix\GoldmineMatrixPath.cs" />
     <Compile Include="Matrix\MatrixUtilities.cs" />
     <Compile Include="Searching\KthSmallestElementInUnsorted.cs" />
+    <Compile Include="Caching\LRUCache.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -79,6 +80,7 @@
     <Folder Include="BitsAndBytes\" />
     <Folder Include="Searching\" />
     <Folder Include="Heaps\" />
+    <Folder Include="Caching\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

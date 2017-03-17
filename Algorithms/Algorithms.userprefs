@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{6652CE14-3F22-400D-B322-A09551F0AB8D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Searching/KthSmallestElementInUnsorted.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Caching/LRUCache.cs">
     <Files>
-      <File FileName="Algorithms/Searching/KthSmallestElementInUnsorted.cs" Line="15" Column="23" />
+      <File FileName="Algorithms/Searching/KthSmallestElementInUnsorted.cs" Line="147" Column="30" />
+      <File FileName="Algorithms/Caching/LRUCache.cs" Line="192" Column="20" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
