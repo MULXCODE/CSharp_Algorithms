@@ -1,10 +1,14 @@
 ﻿<Properties StartupConfiguration="{6652CE14-3F22-400D-B322-A09551F0AB8D}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Caching/LRUCache.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/String/BoyerMooreHorspool.cs">
     <Files>
       <File FileName="Algorithms/Searching/KthSmallestElementInUnsorted.cs" Line="147" Column="30" />
-      <File FileName="Algorithms/Caching/LRUCache.cs" Line="192" Column="20" />
+      <File FileName="Algorithms/Caching/LRUCache.cs" Line="293" Column="2" />
+      <File FileName="Algorithms/Trees/Trie.cs" Line="117" Column="4" />
+      <File FileName="Algorithms/Trees/TrieCCI.cs" Line="96" Column="4" />
+      <File FileName="Algorithms/String/BoyerMooreHorspool.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
@@ -18,6 +22,8 @@
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/BinaryTree_CompressPath.cs" relfile="Algorithms/Trees/BinaryTree_CompressPath.cs" line="57" column="1" />
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Matrix/GoldmineMatrixPath.cs" relfile="Algorithms/Matrix/GoldmineMatrixPath.cs" line="114" column="22" />
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Matrix/GoldmineMatrixPath.cs" relfile="Algorithms/Matrix/GoldmineMatrixPath.cs" line="58" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Caching/LRUCache.cs" relfile="Algorithms/Caching/LRUCache.cs" line="288" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Caching/LRUCache.cs" relfile="Algorithms/Caching/LRUCache.cs" line="286" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />

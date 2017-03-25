@@ -68,6 +68,8 @@
     <Compile Include="Matrix\MatrixUtilities.cs" />
     <Compile Include="Searching\KthSmallestElementInUnsorted.cs" />
     <Compile Include="Caching\LRUCache.cs" />
+    <Compile Include="Trees\TrieCCI.cs" />
+    <Compile Include="String\BoyerMooreHorspool.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -81,6 +83,7 @@
     <Folder Include="Searching\" />
     <Folder Include="Heaps\" />
     <Folder Include="Caching\" />
+    <Folder Include="String\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
