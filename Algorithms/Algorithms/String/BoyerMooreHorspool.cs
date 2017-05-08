@@ -78,7 +78,6 @@ namespace Algorithms
 		public void Test()
 		{
 			var bmh = new BoyerMooreHorspool();
-
 			var firstIndex = bmh.Search("hello", "where am i goin to say hello to this young hello mahn");
 			Assert.That(firstIndex, Is.EqualTo(23));
 			firstIndex = bmh.Search("hello", "hello to this young hello mahn");

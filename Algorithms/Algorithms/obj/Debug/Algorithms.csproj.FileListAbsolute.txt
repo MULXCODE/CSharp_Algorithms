@@ -12,10 +12,10 @@ C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/nunit.
 C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.csprojResolveAssemblyReference.cache
 C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
 C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.pdb
-/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.csprojResolveAssemblyReference.cache
-/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
-/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll.mdb
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.dll
-/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.dll.mdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/Algorithms.pdb
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/nunit.framework.dll
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/bin/Debug/nunit.framework.xml
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.csproj.CoreCompileInputs.cache
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.pdb

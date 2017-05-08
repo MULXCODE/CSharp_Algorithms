@@ -6,7 +6,8 @@ C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/ConsoleAp
 C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/ConsoleApplication1.pdb
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/bin/Debug/ConsoleApplication1.exe.config
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/bin/Debug/ConsoleApplication1.exe
-/Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/bin/Debug/ConsoleApplication1.exe.mdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/bin/Debug/ConsoleApplication1.pdb
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/Sandbox.csprojResolveAssemblyReference.cache
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/Sandbox.csproj.CoreCompileInputs.cache
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/ConsoleApplication1.exe
-/Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/ConsoleApplication1.exe.mdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Sandbox/obj/Debug/ConsoleApplication1.pdb

@@ -70,6 +70,7 @@
     <Compile Include="Caching\LRUCache.cs" />
     <Compile Include="Trees\TrieCCI.cs" />
     <Compile Include="String\BoyerMooreHorspool.cs" />
+    <Compile Include="DynamicProgramming\Fibonacci.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -84,6 +85,7 @@
     <Folder Include="Heaps\" />
     <Folder Include="Caching\" />
     <Folder Include="String\" />
+    <Folder Include="DynamicProgramming\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
