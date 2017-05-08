@@ -75,7 +75,7 @@ namespace Algorithms
 	public class BoyerMooreHorspool_Tests
 	{
 		[Test]
-		public void Test()
+		public void BoyerMooreHorspool_Test()
 		{
 			var bmh = new BoyerMooreHorspool();
 			var firstIndex = bmh.Search("hello", "where am i goin to say hello to this young hello mahn");

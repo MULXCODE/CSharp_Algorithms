@@ -21,42 +21,41 @@ namespace Algorithms
 			_quickSort(arr, 0, arr.Length - 1);
 		}
 
-		private void _quickSort(int[] arr, int left, int right)
-		{
-			int midIndex = (left + right) / 2;
-			int pivotValue = arr[midIndex];
-			int i = left;
-			int j = right;
+        private void _quickSort(int[] arr, int left, int right)
+        {
 
-			while (i <= j)
-			{
-				while (arr[i] <= pivotValue)
-				{
-					i++;
-				}
-				while (arr[j] >= pivotValue)
-				{
-					j--;
-				}
+            int index = _partition(arr, left, right);
 
-				if (i < j)
-				{
-					// swap
-					_swap(arr, i, j);
-					i++;
-					j--;
-				}
-			}
+            if (left < index - 1) // Sort left half
+            {
+                _quickSort(arr, left, index - 1);
+            }
+            if (index < right) // Sort right half
+            {
+                _quickSort(arr, index, right);
+            }
+        }
 
-			if (left < j)
-			{
-				_quickSort(arr, left, j);
-			}
-			if (i < right)
-			{
-				_quickSort(arr, i, right);
-			}
-		}
+        private int _partition(int[] arr, int left, int right)
+        {
+            int pivotValue = arr[(left + right) / 2]; // Pick pivot point
+            while (left <= right)
+            {
+                // find element on left that should be on right
+                while (arr[left] < pivotValue) left++;
+
+                while (arr[right] > pivotValue) right--;
+
+                // swap elements
+                if (left <= right)
+                {
+                    _swap(arr, left, right);
+                    left++;
+                    right--;
+                }
+            }
+            return left;
+        }
 	}
 
 	[TestFixture]

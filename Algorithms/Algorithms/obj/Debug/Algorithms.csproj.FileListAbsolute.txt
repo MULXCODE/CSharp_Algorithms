@@ -19,3 +19,10 @@ C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algori
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.csproj.CoreCompileInputs.cache
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.pdb
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\Algorithms.dll
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.dll
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.xml
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.dll
+C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
