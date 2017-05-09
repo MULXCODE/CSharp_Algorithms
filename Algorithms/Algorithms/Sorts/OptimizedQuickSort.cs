@@ -3,6 +3,10 @@ using NUnit.Framework;
 
 namespace Algorithms
 {
+    /// <summary>
+    /// Quick Sort | Runtime: O(n log(n)), average, O(n^2), worst case memory: O(log(n))
+    /// Reference: CCI_6th
+    /// </summary>
 	public class OptimizedQuickSort
 	{
 		private void _swap(int[] arr, int a, int b)
