@@ -17,3 +17,9 @@ C:\GitApplications\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplica
 C:\GitApplications\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
 C:\GitApplications\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\ConsoleApplication1.exe
 C:\GitApplications\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\ConsoleApplication1.pdb
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplication1.exe.config
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplication1.exe
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Sandbox\bin\Debug\ConsoleApplication1.pdb
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\Sandbox.csprojResolveAssemblyReference.cache
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\ConsoleApplication1.exe
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Sandbox\obj\Debug\ConsoleApplication1.pdb

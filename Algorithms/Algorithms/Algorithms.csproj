@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumerators\PeopleEnumerator.cs" />
     <Compile Include="Graph Algorithms\AdjacencyListNode.cs" />
     <Compile Include="Greedy Algorithms\Djikstras.cs" />
     <Compile Include="Greedy Algorithms\HuffmanCoding.cs" />

@@ -26,3 +26,10 @@ C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.frame
 C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
 C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.dll
 C:\GitApplications\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\Algorithms.dll
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\Algorithms.pdb
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.dll
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\bin\Debug\nunit.framework.xml
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.csprojResolveAssemblyReference.cache
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.dll
+C:\Applications_Git\CSharp_Algorithms\Algorithms\Algorithms\obj\Debug\Algorithms.pdb
