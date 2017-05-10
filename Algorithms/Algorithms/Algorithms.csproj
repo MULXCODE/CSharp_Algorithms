@@ -57,6 +57,7 @@
     <Compile Include="Graph Algorithms\GraphEntities.cs" />
     <Compile Include="Graph Algorithms\DFS.cs" />
     <Compile Include="Searching\ISearch.cs" />
+    <Compile Include="Searching\MultiSearch.cs" />
     <Compile Include="Searching\SequentialSearch.cs" />
     <Compile Include="Trees\BinaryTree.cs" />
     <Compile Include="Trees\Trie.cs" />
