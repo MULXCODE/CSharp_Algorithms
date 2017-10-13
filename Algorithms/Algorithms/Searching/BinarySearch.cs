@@ -3,7 +3,7 @@ using NUnit.Framework;
 
 namespace Algorithms
 {
-	public class BinarySearch
+	public class BinarySearch : ISearch
 	{
 		public BinarySearch()
 		{
@@ -86,15 +86,98 @@ namespace Algorithms
 			return -1;
 		}
 	}
+    public class BinarySearch<T> where T : IComparable<T>
+    {
+        public BinarySearch()
+        {
+        }
 
-	public class Range
+        /// <summary>
+        /// Assumption is that the array is sorted
+        /// </summary>
+        /// <returns>The index.</returns>
+        /// <param name="arr">Sorted array.</param>
+        /// <param name="val">Value.</param>
+        public int FindIndex(T[] arr, T val)
+        {
+            int lo = 0;
+            int hi = arr.Length - 1;
+
+            return _binarySearch(arr, val, lo, hi);
+        }
+
+        private int _binarySearch(T[] arr, T val, int lo, int hi)
+        {
+            if (lo <= hi)
+            {
+                int midIndex = (lo + hi) / 2;
+                T midValue = arr[midIndex];
+
+                if (val.CompareTo(midValue) == 0)
+                {
+                    return midIndex;
+                }
+                else if (val.CompareTo(midValue) > 0) // look on the right
+                {
+                    return _binarySearch(arr, val, midIndex + 1, hi);
+                }
+                else // look on the left
+                {
+                    return _binarySearch(arr, val, lo, midIndex - 1);
+                }
+            }
+
+            return -1;
+        }
+
+        /// <summary>
+        /// Returns the index of the range in which the val searched for occurs
+        /// FindRangeSearch([(1,3), (4,6), (7,9)], 6) would return 1
+        /// </summary>
+        /// <returns>The range search.</returns>
+        /// <param name="range">A sorted array of ranges</param>
+        /// <param name="val">Value.</param>
+        public int FindRangeIndex(Range[] arr, int val)
+        {
+            int lo = 0;
+            int hi = arr.Length - 1;
+
+            return _rangeBinarySearch(arr, val, lo, hi);
+        }
+
+        private int _rangeBinarySearch(Range[] arr, int val, int lo, int hi)
+        {
+            if (lo <= hi)
+            {
+                int midIndex = (lo + hi) / 2;
+                Range midValue = arr[midIndex];
+
+                if (midValue.Start <= val && val <= midValue.End)
+                {
+                    return midIndex;
+                }
+                else if (val <= midValue.Start) // search left
+                {
+                    return _rangeBinarySearch(arr, val, lo, midIndex - 1);
+                }
+                else // search right
+                {
+                    return _rangeBinarySearch(arr, val, midIndex + 1, hi);
+                }
+            }
+
+            return -1;
+        }
+    }
+    
+    public class Range
 	{
 		public int Start { get; set; }
 		public int End { get; set; }
 	}
 
-
-	[TestFixture]
+    [Category("Searching")]
+    [TestFixture]
 	public class BinarySearch_Tests
 	{
 		[Test]
@@ -119,10 +202,34 @@ namespace Algorithms
 
 				Assert.That(result, Is.EqualTo(testCase.Item2));
 			}
-		}
+        }
+
+        [Test]
+        public void BinarySearchGeneric_FindIndex_Test()
+        {
+            var arr = new double[] { 0, 1.3, 2, 3, 4, 5, 6.4, 7, 8, 9, 10.0 };
+
+            // (val, expectedIndex)
+            var testCases = new Tuple<double, int>[]
+            {
+                new Tuple<double, int>(1.3, 1),
+                new Tuple<double, int>(0.0, 0),
+                new Tuple<double, int>(10.0, 10),
+                new Tuple<double, int>(6.4, 6)
+            };
+
+            var binarySearcher = new BinarySearch<double>();
+
+            foreach (var testCase in testCases)
+            {
+                var result = binarySearcher.FindIndex(arr, testCase.Item1);
+
+                Assert.That(result, Is.EqualTo(testCase.Item2));
+            }
+        }
 
 
-		[Test]
+        [Test]
 		public void BinarySearch_FindRangeIndex_Test()
 		{
 			var arr = new int[] { 0, 2, 5, 7, 8, 10 };

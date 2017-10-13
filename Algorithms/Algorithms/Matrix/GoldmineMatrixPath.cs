@@ -44,10 +44,10 @@ namespace Algorithms.Matrix
 			var queue = new Queue<MatrixPoint>();
 			queue.Enqueue(start); // enqueue first point
 
-			while (queue.Count != 0)
-			{
+			//while (queue.Count != 0)
+			//{
 
-			}
+			//}
 
 			// breadth first to fill out entire distances matrix
 			_getShortestPath(arr, distances, new MatrixPoint(start.R + 1, start.C), end, curDistance + 1);
@@ -58,6 +58,11 @@ namespace Algorithms.Matrix
 			return distances[end.R][end.C];
 		}
 
+        /// <summary>
+        /// Creates a copy of the distance array
+        /// </summary>
+        /// <param name="arr"></param>
+        /// <returns></returns>
 		public int[][] GetDistancesArray(int[][] arr)
 		{
 			int[][] distances = new int[arr.Length][];
@@ -113,7 +118,6 @@ namespace Algorithms.Matrix
 
 			MatrixUtilities.Print(arr);
 		}
-
-
 	}
+
 }

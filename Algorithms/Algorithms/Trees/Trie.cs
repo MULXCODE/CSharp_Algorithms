@@ -143,7 +143,7 @@ namespace Algorithms
 		}
 
 		[Test]
-		public void Test()
+		public void Trie_Test()
 		{
 			_trie.Insert("hello");
 			_trie.Insert("world");

@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumerators\PeopleEnumerator.cs" />
     <Compile Include="Graph Algorithms\AdjacencyListNode.cs" />
     <Compile Include="Greedy Algorithms\Djikstras.cs" />
     <Compile Include="Greedy Algorithms\HuffmanCoding.cs" />
@@ -55,6 +56,9 @@
     <Compile Include="Graph Algorithms\BFS.cs" />
     <Compile Include="Graph Algorithms\GraphEntities.cs" />
     <Compile Include="Graph Algorithms\DFS.cs" />
+    <Compile Include="Searching\ISearch.cs" />
+    <Compile Include="Searching\MultiSearch.cs" />
+    <Compile Include="Searching\SequentialSearch.cs" />
     <Compile Include="Trees\BinaryTree.cs" />
     <Compile Include="Trees\Trie.cs" />
     <Compile Include="Sorts\IterativeQuickSort.cs" />
@@ -79,15 +83,7 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="Trees\" />
-    <Folder Include="BitsAndBytes\" />
-    <Folder Include="Searching\" />
-    <Folder Include="Heaps\" />
-    <Folder Include="Caching\" />
-    <Folder Include="String\" />
-    <Folder Include="DynamicProgramming\" />
-  </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
