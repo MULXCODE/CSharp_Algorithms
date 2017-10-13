@@ -71,6 +71,7 @@
     <Compile Include="Trees\TrieCCI.cs" />
     <Compile Include="String\BoyerMooreHorspool.cs" />
     <Compile Include="DynamicProgramming\Fibonacci.cs" />
+    <Compile Include="String\LongestSubstringOfUniqueCharacters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />

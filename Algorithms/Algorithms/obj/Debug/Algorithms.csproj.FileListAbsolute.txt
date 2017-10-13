@@ -19,3 +19,4 @@ C:/Users/GW/Desktop/GIT/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algori
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.csproj.CoreCompileInputs.cache
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.dll
 /Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.pdb
+/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/obj/Debug/Algorithms.csprojResolveAssemblyReference.cache

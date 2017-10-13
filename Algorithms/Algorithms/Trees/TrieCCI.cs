@@ -17,7 +17,7 @@ namespace Algorithms
 		}
 
 		// take a list of strings as an argument and constructs a trie that stores these strings
-		public TrieCCI(String[] list)
+		public TrieCCI(string[] list)
 		{
 			_root = new TrieNodeCCI();
 			foreach (var word in list)
