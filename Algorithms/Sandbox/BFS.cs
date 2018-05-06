@@ -1,10 +1,7 @@
-﻿ using System;
+﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace ConsoleApplication1
+namespace Sandbox
 {
     public class GraphTraversals : IRunnable
     {
@@ -15,6 +12,7 @@ namespace ConsoleApplication1
         {
 
         }
+
         public GraphTraversals(int v)
         {
             V = v;

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace ConsoleApplication1
+namespace Sandbox
 {
     public class CouldHaveWrittenQuestion : IRunnable
     {
@@ -12,13 +12,13 @@ namespace ConsoleApplication1
         public void Run()
         {
             CouldHaveWritten(new RansomNote()
-            {
-                Contents = "abcdef"
-            },
-               new Magazine()
-               {
-                   Contents = "abcdefg"
-               });
+                {
+                    Contents = "abcdef"
+                },
+                new Magazine()
+                {
+                    Contents = "abcdefg"
+                });
         }
 
         public class Note

@@ -23,6 +23,7 @@ namespace Algorithms
             Assert.That(result, Is.EqualTo(new int[] { 0, 1, 3, 4 }));
         }
     }
+
     public class ActivitySelection
     {
         public List<int> GetMaxActivities(int[] s, int[] f, int n)
