@@ -1,27 +1,54 @@
-﻿<Properties>
-  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/Graph Algorithms/BFS.cs">
+﻿<Properties StartupConfiguration="{6652CE14-3F22-400D-B322-A09551F0AB8D}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Algorithms/String/LongestSubstringOfUniqueCharacters.cs">
     <Files>
-      <File FileName="Algorithms/Graph Algorithms/AdjacencyListNode.cs" Line="1" Column="1" />
-      <File FileName="Algorithms/Greedy Algorithms/KruskalsMinimumSpanningTree.cs" Line="82" Column="6" />
-      <File FileName="Algorithms/Graph Algorithms/GraphEntities.cs" Line="143" Column="1" />
-      <File FileName="Algorithms/Graph Algorithms/DFS.cs" Line="31" Column="1" />
-      <File FileName="Algorithms/Graph Algorithms/BFS.cs" Line="22" Column="3" />
+      <File FileName="Algorithms/Searching/KthSmallestElementInUnsorted.cs" Line="147" Column="30" />
+      <File FileName="Algorithms/Caching/LRUCache.cs" Line="293" Column="2" />
+      <File FileName="Algorithms/Trees/Trie.cs" Line="117" Column="13" />
+      <File FileName="Algorithms/Trees/TrieCCI.cs" Line="20" Column="19" />
+      <File FileName="Algorithms/String/BoyerMooreHorspool.cs" Line="72" Column="1" />
+      <File FileName="Algorithms/DynamicProgramming/Fibonacci.cs" Line="22" Column="13" />
+      <File FileName="Algorithms/String/LongestSubstringOfUniqueCharacters.cs" Line="66" Column="35" />
     </Files>
     <Pads>
       <Pad Id="MonoDevelop.UnitTesting.TestPad">
         <State name="__root__">
-          <Node name="Algorithms" expanded="True" />
+          <Node name="Algorithms" expanded="True">
+            <Node name="Algorithms" expanded="True">
+              <Node name="Algorithms" expanded="True">
+                <Node name="String" expanded="True">
+                  <Node name="LongestSubstringOfUniqueCharacters_Test" selected="True" />
+                </Node>
+              </Node>
+            </Node>
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Algorithms PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/BFS.cs" relfile="Algorithms/Graph Algorithms/BFS.cs" line="58" column="1" />
       <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Graph Algorithms/DFS.cs" relfile="Algorithms/Graph Algorithms/DFS.cs" line="44" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/Trie.cs" relfile="Algorithms/Trees/Trie.cs" line="137" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/Trie.cs" relfile="Algorithms/Trees/Trie.cs" line="97" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Sorts/OptimizedQuickSort.cs" relfile="Algorithms/Sorts/OptimizedQuickSort.cs" line="74" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/BinaryTree_CompressPath.cs" relfile="Algorithms/Trees/BinaryTree_CompressPath.cs" line="102" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/BinaryTree_CompressPath.cs" relfile="Algorithms/Trees/BinaryTree_CompressPath.cs" line="104" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Trees/BinaryTree_CompressPath.cs" relfile="Algorithms/Trees/BinaryTree_CompressPath.cs" line="57" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Matrix/GoldmineMatrixPath.cs" relfile="Algorithms/Matrix/GoldmineMatrixPath.cs" line="114" column="22" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Matrix/GoldmineMatrixPath.cs" relfile="Algorithms/Matrix/GoldmineMatrixPath.cs" line="58" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Caching/LRUCache.cs" relfile="Algorithms/Caching/LRUCache.cs" line="288" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/Caching/LRUCache.cs" relfile="Algorithms/Caching/LRUCache.cs" line="286" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/String/BoyerMooreHorspool.cs" relfile="Algorithms/String/BoyerMooreHorspool.cs" line="82" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/String/BoyerMooreHorspool.cs" relfile="Algorithms/String/BoyerMooreHorspool.cs" line="53" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/DynamicProgramming/Fibonacci.cs" relfile="Algorithms/DynamicProgramming/Fibonacci.cs" line="28" column="10" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/String/LongestSubstringOfUniqueCharacters.cs" relfile="Algorithms/String/LongestSubstringOfUniqueCharacters.cs" line="67" column="1" />
+      <Breakpoint file="/Users/GWM/Git/CSharp_Algorithms/Algorithms/Algorithms/String/LongestSubstringOfUniqueCharacters.cs" relfile="Algorithms/String/LongestSubstringOfUniqueCharacters.cs" line="65" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Sandbox PreferredExecutionTarget="MonoDevelop.Default" />
 </Properties>

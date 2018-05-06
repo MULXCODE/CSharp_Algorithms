@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Enumerators\PeopleEnumerator.cs" />
     <Compile Include="Graph Algorithms\AdjacencyListNode.cs" />
     <Compile Include="Greedy Algorithms\Djikstras.cs" />
     <Compile Include="Greedy Algorithms\HuffmanCoding.cs" />
@@ -55,7 +56,26 @@
     <Compile Include="Graph Algorithms\BFS.cs" />
     <Compile Include="Graph Algorithms\GraphEntities.cs" />
     <Compile Include="Graph Algorithms\DFS.cs" />
+    <Compile Include="Searching\ISearch.cs" />
+    <Compile Include="Searching\MultiSearch.cs" />
+    <Compile Include="Searching\SequentialSearch.cs" />
+    <Compile Include="Trees\BinaryTree.cs" />
+    <Compile Include="Trees\Trie.cs" />
     <Compile Include="Sorts\IterativeQuickSort.cs" />
+    <Compile Include="Sorts\Sort012.cs" />
+    <Compile Include="BitsAndBytes\AddBinaryStrings.cs" />
+    <Compile Include="Searching\BinarySearch.cs" />
+    <Compile Include="Sorts\OptimizedQuickSort.cs" />
+    <Compile Include="Trees\BinaryTree_CompressPath.cs" />
+    <Compile Include="Heaps\MinHeap.cs" />
+    <Compile Include="Matrix\GoldmineMatrixPath.cs" />
+    <Compile Include="Matrix\MatrixUtilities.cs" />
+    <Compile Include="Searching\KthSmallestElementInUnsorted.cs" />
+    <Compile Include="Caching\LRUCache.cs" />
+    <Compile Include="Trees\TrieCCI.cs" />
+    <Compile Include="String\BoyerMooreHorspool.cs" />
+    <Compile Include="DynamicProgramming\Fibonacci.cs" />
+    <Compile Include="String\LongestSubstringOfUniqueCharacters.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
@@ -63,6 +83,7 @@
   <ItemGroup>
     <Service Include="{82A7F48D-3B50-4B1E-B82E-3ADA8210C358}" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
