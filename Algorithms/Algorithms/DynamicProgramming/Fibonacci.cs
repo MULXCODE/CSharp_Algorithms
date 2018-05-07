@@ -1,5 +1,4 @@
-﻿using System;
-using NUnit.Framework;
+﻿using NUnit.Framework;
 
 namespace Algorithms.DynamicProgramming
 {
@@ -9,7 +8,14 @@ namespace Algorithms.DynamicProgramming
 
         public Fibonacci()
         {
-            _fibCache = new int[64];    
+            _fibCache = new int[64];
+
+            _fibCache[0] = 0;
+            _fibCache[1] = 1;
+            for (int i = 2; i < 64; i++)
+            {
+                _fibCache[i] = _fibCache[i - 1] + _fibCache[i - 2];
+            }
         }
 
         public int Compute(int n) {
@@ -22,21 +28,5 @@ namespace Algorithms.DynamicProgramming
 
             return _fibCache[n];
         }
-    }
-
-    [Category("Fib Test")]
-    [TestFixture]
-    public class Fibonacci_Tests {
-
-        [Test]
-        public void Fibonacci_Test() 
-        {
-            var fibonacciComputer = new Fibonacci();
-
-            var res = fibonacciComputer.Compute(33);
-
-            Assert.That(res, Is.Not.Null);
-        }
-
     }
 }
